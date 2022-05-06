@@ -1,0 +1,19 @@
+h1,h3{
+    font-family:'Courier New', Courier, monospace;
+    
+    
+
+}
+
+body{
+    background-color: rgba(178, 240, 10, 0.644);
+}
+
+#fonteAlternativa{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tamnhos{
+    font-size: large;
+    font-weight: 900;
+}
