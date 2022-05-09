@@ -1,20 +1,35 @@
-p, h1{
-
+div:hover{
+    
+    border-style: groove;
     
     
-    text-align: center;
+    
+    
 }
-.itens:hover{
 
-    
+body div:hover:nth-child(3){
     background-color: red;
-    
-    
+    font-style: italic;
 }
 
-li:active{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body div:hover:nth-child(4){
+    background-color: blue;
 }
-.listass{
-    list-style: none;
+body div:hover:nth-child(5){
+    background-color: green;
+    font-size: 200px;
+    font-style: italic;
+}
+
+body div:hover:nth-child(6){
+    background-color: yellow;
+}
+
+body div:hover:nth-child(7){
+    background-color: brown;
+    font-style: italic;
+}
+
+h3{
+    font-style: oblique;
 }
