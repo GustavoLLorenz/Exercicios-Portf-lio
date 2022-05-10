@@ -1,35 +1,52 @@
-div:hover{
+.par{
+    color: green;
+}
+.impar {
+    color: yellow;
+    text-transform: uppercase;
+}
+
+h1,  h3 {
+    color: red;
+    border: 1px solid black;
+}
+
+body ol li{
+    font-size: 20px;
+    font-weight:900;
     
-    border-style: groove;
-    
-    
-    
+}
+body ul li{
+    font-size: 20px;
+}
+ul.linguagens li:nth-child(1){
+    color: blue;
+}
+ul.linguagens li:nth-child(2){
+    color: blue;
+}
+ul.linguagens li:nth-child(3){
+    color: blue;
+}
+
+
+.java{
+    background-color: pink;
     
 }
 
-body div:hover:nth-child(3){
-    background-color: red;
-    font-style: italic;
+ul.aliados li:hover,ul.aliados li a#stack:hover{
+    color: orange;
 }
-
-body div:hover:nth-child(4){
-    background-color: blue;
+ul.aliados li:hover:nth-child(2),ul.aliados li a#school:hover{
+    color: green;
 }
-body div:hover:nth-child(5){
-    background-color: green;
-    font-size: 200px;
-    font-style: italic;
+ul.aliados li:hover:nth-child(3),ul.aliados li a#devZero:hover{
+    color: black;
 }
-
-body div:hover:nth-child(6){
-    background-color: yellow;
+ul.aliados li:hover:nth-child(4),ul.aliados li a#devUm:hover{
+    color: yellow;
 }
-
-body div:hover:nth-child(7){
-    background-color: brown;
-    font-style: italic;
-}
-
-h3{
-    font-style: oblique;
+ul.aliados li:hover:nth-child(5),ul.aliados li a#trybe:hover{
+    color: green;
 }
