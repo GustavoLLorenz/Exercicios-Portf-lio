@@ -1,0 +1,42 @@
+
+body{
+    background-color: #0e90ad;
+    width: 70%;
+}
+.navegation li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+.paragrafo{
+    display: block;
+    width: 50%;
+}
+
+table{
+    background-color: blue;
+    width: 900px;
+}
+
+td{
+    border: 1px solid black;
+}
+
+#unicafoto{
+    width: 200px;
+}
+
+.barraLateral{
+    background-color: #15a97d;
+    position: relative;
+    width: 20%;
+   /*float: right;*/
+    margin-top: -400px;
+    margin-left: 100%;
+    
+}
+
+.referencias{
+    position:relative;
+    margin-top:600px;
+}
